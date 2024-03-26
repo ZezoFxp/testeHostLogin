@@ -1,0 +1,86 @@
+body{
+    margin-top: 5%;
+    background-color: rgb(171, 81, 255);
+    font-family: helvetica, sans-serif;
+    color: white;
+}
+
+
+h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.container{
+    background-color: purple;
+    border-radius: 15%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0 38%;
+    text-align: center;
+    flex-direction: column;
+
+    background: rgba(148, 4, 170, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(162, 40, 186, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+section input{
+    border-radius: 5px;
+    height: 25px;    
+    background-color: rgb(253, 219, 253);
+}
+
+#btn{
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.camposInDown{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#reg{
+    margin-top: 5%;
+}
+
+#btn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.icon{
+    vertical-align: middle;
+}
+
+label{
+    vertical-align: middle;
+}
+
+a:hover{
+    color: rgb(214, 175, 250);
+    transition: 0.2s ease-in-out;
+}

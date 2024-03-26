@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="img/1342751.png">
+    <header>
+        <h1>Login</h1>
+    </header>
+    <div class="container">
+        <section>
+            <form action="" method="get">
+                <div class="FirstLabel">
+                    <i><img src="img/user-alt-1-svgrepo-com.svg" alt="" class="icon"></i>
+                    <label name="login" id="loginLabel">Login</label>
+                    <input type="text" id="log" required>
+                </div>
+                
+                <br><br>
+                <div class="SecondLabel">
+                    <i><img src="img/lock-alt-svgrepo-com.svg" alt="" class="icon"></i>
+                    <label name="senha" id="senhaLabel">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                
+                
+                <br>
+                <br>
+
+                <button type="submit" id="btn" onclick="enviar()">Login</button>
+
+                <br>
+                <br>
+            </form>
+            <div class="camposInDown">
+                <a href="forgotPass" id="forgot">Esqueceu a Senha</a>
+                <a href="register" id="reg">Cadastre-se</a>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
